@@ -1,0 +1,23 @@
+.container {
+  padding: 16px;
+}
+
+.chartContainer {
+  margin: 0 -16px 16px;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+    margin: 0 auto;
+    padding-bottom: 24px;
+  }
+
+  .chartContainer {
+    margin: 0 0 16px;
+  }
+
+  .container button {
+    width: auto;
+  }
+}

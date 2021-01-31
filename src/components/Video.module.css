@@ -1,0 +1,33 @@
+.container {
+  position: relative;
+  /* fix aspect ratio to 10:3 Why? there's no why... */
+  padding-bottom: 30%;
+}
+
+.player {
+  /* Make video fill the container entirely */
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  outline: none;
+  /* Show only center part of the video, and hide all overflow */
+  object-fit: cover;
+}
+
+.svg {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.box {
+  stroke-width: 1px;
+  fill: transparent;
+}
+
+.boxLabel {
+  font-family: sans-serif;
+}

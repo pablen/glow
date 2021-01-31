@@ -1,0 +1,38 @@
+.base,
+.primary {
+  display: block;
+  font: inherit;
+  cursor: pointer;
+  outline: none;
+  background: #f9f9ff;
+  border: 2px solid #5454c8;
+  border-radius: 4px;
+  width: 100%;
+  line-height: 1;
+  padding: 14px 24px;
+  margin: 0;
+  color: #5454c8;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.base:hover:not([disabled]) {
+  background-color: #f3f3ff;
+}
+
+.primary {
+  background-color: #5454c8;
+  color: white;
+}
+
+.primary:hover:not([disabled]) {
+  background-color: #3737bb;
+}
+
+.base[disabled],
+.primary[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

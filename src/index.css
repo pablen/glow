@@ -7,7 +7,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  background-color: #fafafa;
+  height: 100vh;
+  height: -webkit-fill-available;
+}
+
+a {
+  color: #5454c8;
+}
+
+a:hover,
+a:focus {
+  color: #3737bb;
 }
